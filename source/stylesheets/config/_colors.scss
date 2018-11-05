@@ -8,3 +8,17 @@ $orange: #E67E22;
 $green: #32B796;
 $gray: #000000;
 $light-gray: #F4F4F4;
+
+.banner {
+  background: $blue;
+  color: white;
+  h1 {
+    font-size: 50px;
+  }
+  a {
+    color: $red;
+    &:hover {
+      color: darken($red, 10%);
+    }
+  }
+}
